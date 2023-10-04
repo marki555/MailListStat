@@ -12,29 +12,19 @@ DEBUG=-g
 
 #### DON'T CHANGE ANYTHING BELOW ####
 DESTDIR=/usr/local
-CFLAGS=-Wall $(OPTIMIZE) $(DEBUG)
+CFLAGS=-Wall $(OPTIMIZE) $(DEBUG) -fcommon # use "-fcommon" for this bug https://stackoverflow.com/questions/69908418/multiple-definition-of-first-defined-here-on-gcc-10-2-1-but-not-gcc-8-3-0
 LIBS=-lm
 CC=gcc
 
+DEPS=mls.h mls_mime.h mls_text.h mls_list.h mls_stat.h
 OBJS=mls.o mls_mime.o mls_text.o mls_list.o mls_stat.o
 
-mls: $(OBJS) Makefile
-	$(CC) $(CFLAGS) $(OBJS) -o mls
+# https://www.cs.colby.edu/maxwell/courses/tutorials/maketutor/
+%.o: %.c $(DEPS)
+	$(CC) -c -o $@ $< $(CFLAGS)
 
-mls.o: mls.c mls.h Makefile
-	$(CC) $(CFLAGS) -c mls.c -o mls.o
-
-mls_mime.o: mls_mime.c mls_mime.h Makefile
-	$(CC) $(CFLAGS) -c mls_mime.c -o mls_mime.o
-
-mls_list.o: mls_list.c mls_list.h Makefile
-	$(CC) $(CFLAGS) -c mls_list.c -o mls_list.o
-
-mls_stat.o: mls_stat.c mls_stat.h Makefile
-	$(CC) $(CFLAGS) -c mls_stat.c -o mls_stat.o
-
-mls_text.o: mls_text.c mls_text.h mls_lang.h Makefile
-	$(CC) $(CFLAGS) -c mls_text.c -o mls_text.o
+mls: $(OBJS)
+	$(CC) -o $@ $^ $(CFLAGS)
 
 install: mls
 	install -m 755 -g root -o root -s mls $(DESTDIR)/bin

@@ -20,6 +20,7 @@
 
 #ifndef	_MLS_TEXT_H
 #define	_MLS_TEXT_H	1
+#define SNUMB_LEN       4
 
 /* ********************************************* FUNCTION DECLARATIONS *** */
 long GetCount(nTptr);
@@ -30,7 +31,7 @@ void PrintTop(nTptr, int);
 void PrintTopQ(nTptr, int);
 void PrintTopHtml(nTptr, int);
 void PrintGraph(long[], int, int);
-void PrintGraphHtml(long[], long[][], int, char *);
+void PrintGraphHtml(long[], long[][SNUMB_LEN], int, char *);
 
 void PrintStatText(int, char *);
 void PrintStatHtml(int, char *, short);

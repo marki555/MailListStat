@@ -1,7 +1,7 @@
 /****************************************************************************
     MailListStat - print useful statistics on email messages
     MIME & charset conversion functions
-    Copyright (C) 2001-2003  Marek Podmaka <marki@nexin.sk>
+    Copyright (C) 2001-2003  Marek Podmaka
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

@@ -1,5 +1,5 @@
 # Makefile for MailListStat (MLS)
-# (C) 2001-2003 Marek -Marki- Podmaka <marki@nexin.sk>
+# (C) 2001-2003 Marek -Marki- Podmaka
 
 # install won't work under Windows
 

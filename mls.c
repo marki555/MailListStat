@@ -1,7 +1,7 @@
 /****************************************************************************
     MailListStat - print useful statistics on email messages
     main program file
-    Copyright (C) 2001-2003  Marek Podmaka <marki@nexin.sk>
+    Copyright (C) 2001-2003  Marek Podmaka
 
     This program is free software; you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -54,7 +54,7 @@ time_t t_oldest,
 /* ************************************************* Other * FUNCTIONS *** */
 /* ***** banner ********************************************************** */
 void banner() { // print greeting banner
-  fprintf(stderr,"MailListStat v%s, (C) 2001-2003 by Marek -Marki- Podmaka <marki@nexin.sk>\n",VERSION);
+  fprintf(stderr,"MailListStat v%s, (C) 2001-2003 by Marek -Marki- Podmaka\n",VERSION);
 }
 /* ***** help ************************************************************ */
 void help(char *commandline) { // print help text

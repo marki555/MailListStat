@@ -21,7 +21,7 @@
 #ifndef	_MLS_H
 #define	_MLS_H	1
 
-#define VERSION "1.3"
+#define VERSION "1.4b1"
 
 #include <errno.h>
 #include <stdio.h>

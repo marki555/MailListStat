@@ -379,7 +379,7 @@ void ParseInput() { // parse whole input file
        }
        // will search for mailers in these
        // Message-ID will be used only if no other of these is present
-       if (!strncasecmp(riadok,"Message-ID: ",12) && sMail=='\0') { // for Pine mailer
+       if (!strncasecmp(riadok,"Message-ID: ",12) && *sMail=='\0') { // for Pine mailer
           myCopy(sMail,riadok+12,MAX_SUBJ);
 	  GetMailer(sMail);
        }

@@ -22,6 +22,8 @@
 #include "mls_mime.h"
 #include "mls_stat.h"
 
+regex_t r_qp, r_base64, r_hex;
+
 void replaceStr(char *input, int so, int eo, char *repl) {
  // replace part of input from index so to eo with repl
  // repl should be smaller than eo-so+1!

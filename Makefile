@@ -5,16 +5,15 @@
 
 # -m386 (486,pentium,pentiumpro)
 #OPTIMIZE=-O7 -mpentiumpro
-OPTIMIZE=-O3
+OPTIMIZE?=-O3
 
 # debug symbols will be stripped anyway during 'make install'
-DEBUG=-g
+DEBUG?=-g
 
 #### DON'T CHANGE ANYTHING BELOW ####
-DESTDIR=/usr/local
-CFLAGS=-Wall $(OPTIMIZE) $(DEBUG) -fcommon # use "-fcommon" for this bug https://stackoverflow.com/questions/69908418/multiple-definition-of-first-defined-here-on-gcc-10-2-1-but-not-gcc-8-3-0
-LIBS=-lm
-CC=gcc
+DESTDIR?=/usr/local
+CFLAGS?=-Wall $(OPTIMIZE) $(DEBUG) # -fcommon # use "-fcommon" for this bug https://stackoverflow.com/questions/69908418/multiple-definition-of-first-defined-here-on-gcc-10-2-1-but-not-gcc-8-3-0
+LIBS?=-lm
 
 DEPS=mls.h mls_mime.h mls_text.h mls_list.h mls_stat.h
 OBJS=mls.o mls_mime.o mls_text.o mls_list.o mls_stat.o

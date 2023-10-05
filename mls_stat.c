@@ -311,7 +311,10 @@ void AddStat(char *A, char *S, char *D, char *M, long sQ, long sN) {
 /* ***** myCopy ********************************************************** */
 void myCopy(char *dst, char *src, size_t max) {
   // safe copy - will add \0 to end of destination region
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wstringop-truncation"
   strncpy(dst,src,max);
+#pragma GCC diagnostic pop
   dst[max-1]='\0';
 }
 

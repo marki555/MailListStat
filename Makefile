@@ -12,7 +12,7 @@ DEBUG?=-g
 
 #### DON'T CHANGE ANYTHING BELOW ####
 DESTDIR?=/usr/local
-CFLAGS?=-Wall $(OPTIMIZE) $(DEBUG) # -fcommon # use "-fcommon" for this bug https://stackoverflow.com/questions/69908418/multiple-definition-of-first-defined-here-on-gcc-10-2-1-but-not-gcc-8-3-0
+CFLAGS?=-Wall $(OPTIMIZE) $(DEBUG)
 LIBS?=-lm
 
 DEPS=mls.h mls_mime.h mls_text.h mls_list.h mls_stat.h

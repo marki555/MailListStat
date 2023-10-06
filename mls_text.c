@@ -444,7 +444,7 @@ void PrintStatHtml(int topXX, char *title, short mode) { // print statistics in 
    // Days of week
    if (graph & G_WEEK) {
      for (i=0; i <= 7; i++) { // fill the sNumb array with week-day names from langDOW[lang]
-        strncpy(sNumb[i], langDOW[lang]+i*4, 3);
+        strlcpy(sNumb[i], langDOW[lang]+i*4, 3);
         sNumb[i][3]='\0';
      }
      fprintf(fOut,"\n<h2 id=\"Gweek\">%s</h2>\n",langGdow[lang]);
@@ -455,7 +455,7 @@ void PrintStatHtml(int topXX, char *title, short mode) { // print statistics in 
    // Months of year
    if (graph & G_YEAR) {
      for (i=0; i <=12; i++) { // fill the sNumb array with month-names from langMON[lang]
-        strncpy(sNumb[i], langMON[lang]+i*4, 3);
+        strlcpy(sNumb[i], langMON[lang]+i*4, 3);
         sNumb[i][3]='\0';
      }
      fprintf(fOut,"\n<h2 id=\"Gmonth\">%s</h2>\n",langGmon[lang]);

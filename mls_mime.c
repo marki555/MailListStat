@@ -32,7 +32,7 @@ void replaceStr(char *input, int so, int eo, char *repl) {
  int l;
  myCopy(tmp,input+eo+1,256); // put remainder of input to tmp
  l=strlen(repl);
- strncpy(input+so,repl,l);  // put repl to right place (no \0 after)
+ strlcpy(input+so,repl,l);  // put repl to right place (no \0 after)
  strcpy(input+so+l,tmp);    // it should fit
 }
 

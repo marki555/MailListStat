@@ -1,0 +1,200 @@
+command run: ./mls -r 2002.cache -o stats.txt -t mobil(at)mobil.sk
+
+output on stderr:
+
+MailListStat v1.3, (C) 2001-2003 by Marek -Marki- Podmaka
+Cache file:  2002.cache
+Output file: a.txt
+Execution finished. Processed 19279 messages in 0 seconds.
+User   time used: 0 seconds.
+System time used: 0 seconds.
+
+Stats put to file stats.txt:
+
+ Statistics from 13.5.1995 to 26.11.2037 for mobil(at)mobil.sk
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+***** People who have written most messages:
++----+-----Author-----------------------------------+--Msg-+-Percent-+
+|  1 | drmoabil@sazm.sk                             | 2275 | 11.80 % |
+|  2 | Michal.Holes@vaurup.sk                       | 1361 |  7.06 % |
+|  3 | igor.fusek@atn.aasset.sk                     | 1290 |  6.69 % |
+|  4 | bcihak@vuba.sk                               | 1099 |  5.70 % |
+|  5 | telemania@hast.sk                            |  964 |  5.00 % |
+|  6 | cestna.vaha.2@chz.sk                         |  549 |  2.85 % |
+|  7 | lukic@softhme.net                            |  408 |  2.12 % |
+|  8 | jupo@sectory.sk                              |  406 |  2.11 % |
+|  9 | bwd1@rnet.sk                                 |  401 |  2.08 % |
+| 10 | ulaher@zal.psg.sk                            |  400 |  2.07 % |
++----+----------------------------------------------+------+---------+
+|    | other                                        |10126 | 52.52 % |
++----+----------------------------------------------+------+---------+
+
+***** Best authors, by total size of their messages (w/o quoting):
++----+-----Author-------------------------------------------+-KBytes-+
+|  1 | drmobil@sazm.sk                                      |  587.0 |
+|  2 | Michal.Holes@vaurup.sk                               |  421.9 |
+|  3 | telemania@hast.sk                                    |  377.7 |
+|  4 | kmet@dynakom.sk                                      |  353.4 |
+|  5 | igor.fusek@atn.aasset.sk                             |  328.1 |
+|  6 | bcihak@vuba.sk                                       |  311.1 |
+|  7 | cestna.vaha.2@chz.sk                                 |  274.2 |
+|  8 | lukic@softhomes.net                                  |  227.8 |
+|  9 | TichyM@zv.spasa.sk                                   |  224.7 |
+| 10 | pavlovic@fornety.sk                                  |  201.9 |
++----+------------------------------------------------------+--------+
+
+***** Best authors, by average size of their message (w/o quoting):
++----+-----Author--------------------------------------------+-bytes-+
+|  1 | kmet@dynakom.sk                                       |361868 |
+|  2 | mackovicova@rekto.umb.sk                              |126332 |
+|  3 | nokia.developer.nworkE@nookia.com                     | 17481 |
+|  4 | dzulo@ramajam.sk                                      |  8452 |
+|  5 | kral@sevta.sk                                         |  4965 |
+|  6 | viktor@mobile.sk                                      |  2498 |
+|  7 | TichyM@zv.spaas.sk                                    |  2324 |
+|  8 | vlado@mobila.sk                                       |  2220 |
+|  9 | Peter_KNIZ@lubaba.sk                                  |  2040 |
+| 10 | i.Vavro@OneTwos.sk                                    |  1828 |
++----+-------------------------------------------------------+-------+
+
+***** Table showing the most successful subjects:
++----+----Subject-----------------------------------+--Msg-+-Percent-+
+|  1 | [MOBiL]new from Orange!!                     |  194 |  1.01 % |
+|  2 | [MOBiL]Zase haluzi OR ?                      |  134 |  0.70 % |
+|  3 | [MOBiL]Stretavka v BA                        |  128 |  0.66 % |
+|  4 | [MOBiL]Easy uctuje blbosti za SMS            |  108 |  0.56 % |
+|  5 | [MOBiL]vymena sim v OR - prima               |   89 |  0.46 % |
+|  6 | [MOBiL]Profinet.sk chce byt treti operator!  |   87 |  0.45 % |
+|  7 | [MOBIL.SK] upgrade konfery Mobil.sk          |   84 |  0.44 % |
+|  8 | [MOBiL]odblokovanie na zivnost               |   80 |  0.41 % |
+|  9 | [Mobil] stretavka                            |   78 |  0.40 % |
+| 10 | [MOBiL]n7110 a dva zaznamy                   |   72 |  0.37 % |
++----+----------------------------------------------+------+---------+
+|    | other                                        |18225 | 94.53 % |
++----+----------------------------------------------+------+---------+
+
+***** Most used email clients:
++----+----Mailer------------------------------------+--Msg-+-Percent-+
+|  1 | Internet Mail Service 5.x                    | 4241 | 22.00 % |
+|  2 | Microsoft Outlook Express 5.x                | 3430 | 17.79 % |
+|  3 | Microsoft Outlook Express 6.x                | 3068 | 15.91 % |
+|  4 | The Bat!                                     | 1927 | 10.00 % |
+|  5 | (unknown)                                    | 1742 |  9.04 % |
+|  6 | Microsoft Outlook IMO                        | 1035 |  5.37 % |
+|  7 | POSTIE                                       |  874 |  4.53 % |
+|  8 | Mutt                                         |  488 |  2.53 % |
+|  9 | Mozilla 4.x                                  |  442 |  2.29 % |
+| 10 | Microsoft Outlook                            |  442 |  2.29 % |
++----+----------------------------------------------+------+---------+
+|    | other                                        | 1590 |  8.25 % |
++----+----------------------------------------------+------+---------+
+
+***** Table of maximal quoting:
++----+-----Author------------------------------------------+-Percent-+
+|  1 | Jozef.Bzulka@aosorigin.com                          | 86.08 % |
+|  2 | hole@moabil.sk                                      | 84.36 % |
+|  3 | Martin.Pvlech@vacauumschmelze.com                   | 79.65 % |
+|  4 | igor.fuasek@atn.aset.sk                             | 78.01 % |
+|  5 | Michalles@vaurup.sk                                 | 76.58 % |
+|  6 | peti11@avilaga.hu                                   | 76.56 % |
+|  7 | Danielndrasik@vaacuumschmelze.com                   | 76.36 % |
+|  8 | trenkler@vss.sk                                     | 74.93 % |
+|  9 | Michal.Holes@VAUP.SK                                | 74.70 % |
+| 10 | mg@vssa.sk                                          | 74.63 % |
++----+-----------------------------------------------------+---------+
+|    | average                                             | 50.82 % |
++----+-----------------------------------------------------+---------+
+
+***** Graph showing number of messages written during hours of day:
+
+100% -----------------------------#------------------- - 1779
+ 90% -----------------#-#-#-#---#-#------------------- msgs
+ 80% -----------------#-#-#-#---#-#-#-----------------
+ 70% -----------------#-#-#-#-#-#-#-#-----------------
+ 60% ---------------#-#-#-#-#-#-#-#-#-#---------------
+ 50% ---------------#-#-#-#-#-#-#-#-#-#---------------
+ 40% ---------------#-#-#-#-#-#-#-#-#-#---------------
+ 30% ---------------#-#-#-#-#-#-#-#-#-#-#-------------
+ 20% -------------#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#---
+ 10% -------------#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
+      * * * * * * * * * * * * * * * * * * * * * * * * 
+hour  0         5           11          17          23
+
+
+***** Graph showing number of messages written during days of month:
+
+100% -----------------------------------------#--------------------- - 792
+ 90% -----#-#-----#---------------------------#-----------#--------- msgs
+ 80% -----#-#-#-#-#---#-#-#-------#-----#-----#-#-#-------#---------
+ 70% -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-----#---#-#-#-#---#---#-#-#-#---
+ 60% -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#---#-#-#-#-#-#-#-#-#-#-#-#-#-#---
+ 50% -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#---
+ 40% -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#---
+ 30% -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
+ 20% -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
+ 10% -#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-
+      * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
+ day  1         6           12          18          24            31
+!!!!! Warning: 1 message(s) not counted.
+
+
+***** Graph showing number of messages written during days of week:
+
+100% -#--------------------------- - 3877
+ 90% -#---#---#------------------- msgs
+ 80% -#---#---#---#---------------
+ 70% -#---#---#---#---#-----------
+ 60% -#---#---#---#---#-----------
+ 50% -#---#---#---#---#-----------
+ 40% -#---#---#---#---#-----------
+ 30% -#---#---#---#---#-----------
+ 20% -#---#---#---#---#-----------
+ 10% -#---#---#---#---#---#---#---
+      *   *   *   *   *   *   *   
+     Mon Tue Wed Thu Fri Sat Sun
+!!!!! Warning: 123 message(s) not counted.
+
+
+***** Graph showing number of messages written during months of year:
+
+100% -----------------#------------------------------- - 2299
+ 90% -----------------#------------------------------- msgs
+ 80% -#-----------#---#---------------#---#-----------
+ 70% -#-----------#---#-------#-------#---#-----------
+ 60% -#-----------#---#---#---#-------#---#---#-------
+ 50% -#---#---#---#---#---#---#-------#---#---#-------
+ 40% -#---#---#---#---#---#---#---#---#---#---#---#---
+ 30% -#---#---#---#---#---#---#---#---#---#---#---#---
+ 20% -#---#---#---#---#---#---#---#---#---#---#---#---
+ 10% -#---#---#---#---#---#---#---#---#---#---#---#---
+      *   *   *   *   *   *   *   *   *   *   *   *   
+     Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+!!!!! Warning: 1 message(s) not counted.
+
+
+***** Maximal quoting:
+      Author     : igorfusek@atn.asseta.sk
+      Subject    : [MOBIL.SK] Vianocny darcek - kedy ho vyuzijeme?
+      Date       : Mon, 7 Jan 2002 10:06:50 +0100 
+      Quote ratio: 99.29% / 2404 bytes
+
+***** Longest message:
+      Author     : kmet@dynakomas.sk
+      Subject    : [MOBiL]FW: Hokejové prekvapenie od EuroTelu
+      Date       : Fri, 7 Jun 2002 20:04:16 +0200
+      Size       : 361868 bytes
+
+***** Most successful subject:
+      Subject    : [MOBiL]new from Orange!!
+      No. of msgs: 194
+      Total size : 180987 bytes
+
+***** Final summary:
+      Total number of messages:             19279
+      Total number of different authors:    324
+      Total number of different subjects:   3058
+      Total size of messages (w/o headers): 18389155 bytes
+      Average size of a message:            953 bytes
+
+***** Generated by MailListStat v1.3, (C) 2001-2003
+***** See http://freshmeat.net/projects/mls for details...
